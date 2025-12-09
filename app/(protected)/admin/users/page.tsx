@@ -67,7 +67,7 @@ export default function UsersPage() {
             <Card>
                 <CardHeader className="flex items-center justify-between">
                     <CardTitle>View Business Owners</CardTitle>
-                    <Link href="/admin/businesses/create">
+                    <Link href="/admin/users/create">
                         <Button>+ Add Owner</Button>
                     </Link>
                 </CardHeader>
