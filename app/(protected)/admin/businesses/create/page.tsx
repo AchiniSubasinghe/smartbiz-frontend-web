@@ -20,7 +20,7 @@ export default function AddUser() {
 
     return (
         <div>
-            <h1 className="text-xl mt-2 font-bold ">Add the Business owners</h1>
+            <h1 className="text-xl mt-2 font-bold ">Add Business owners</h1>
             <div className=" min-h-screen items-center">
 
                 <Card className="mt-10  w-full max-w-lg">
@@ -63,8 +63,8 @@ export default function AddUser() {
                                 <SelectValue placeholder="Select the status" />
                             </SelectTrigger>
                             <SelectContent>
-                                <SelectItem value="owner">Active</SelectItem>
-                                <SelectItem value="owner">In-Active</SelectItem>
+                                <SelectItem value="active">Active</SelectItem>
+                                <SelectItem value="inactive">In-Active</SelectItem>
                             </SelectContent>
                         </Select>
 
